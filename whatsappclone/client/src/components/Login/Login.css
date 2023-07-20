@@ -1,0 +1,31 @@
+
+.login{
+    background-color:#d0d6d3;
+    width:100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.login_container{
+    background-color: white;
+    width:800px;
+    height: 900px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.login_container>img{
+   height:400px;
+   width: 400px;
+   user-select: none;
+   
+}
+.login_container >button{
+    margin-top: 50px;
+    text-transform: inherit !important;
+    background-color:#0a8d4d  !important;
+    color: white;
+}
